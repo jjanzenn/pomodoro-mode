@@ -28,13 +28,13 @@
   :group 'pomodoro)
 
 ;;;###autoload
-(defcustom pomodoro-work-time (* 25 1)
+(defcustom pomodoro-work-time (* 25 60)
   "The length of a pomodoro work session in seconds"
   :type '(integer)
   :group 'pomodoro)
 
 ;;;###autoload
-(defcustom pomodoro-break-time (* 5 1)
+(defcustom pomodoro-break-time (* 5 60)
   "The length of a pomodoro break session in seconds"
   :type '(integer)
   :group 'pomodoro)
