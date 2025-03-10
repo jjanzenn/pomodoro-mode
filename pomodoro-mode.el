@@ -17,8 +17,7 @@
 
 
 ;; Author: j. janzen <jjanzen@jjanzen.ca>
-;; Version: 0.2
-;; Package-Requires: ()
+;; Version: 0.1
 ;; Keywords: productivity, convenience
 
 ;;; Commentary:
@@ -29,7 +28,7 @@
 ;;;###autoload
 (defgroup pomodoro nil
   "Pomodoro timer"
-  :group 'convenience)
+  :group 'applications)
 
 ;;;###autoload
 (defcustom pomodoro-start-time 0
