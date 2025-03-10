@@ -28,13 +28,13 @@
   :group 'pomodoro)
 
 ;;;###autoload
-(defcustom pomodoro-work-time (* 25 60)
+(defcustom pomodoro-work-time (* 25 1)
   "The length of a pomodoro work session in seconds"
   :type '(integer)
   :group 'pomodoro)
 
 ;;;###autoload
-(defcustom pomodoro-break-time (* 5 60)
+(defcustom pomodoro-break-time (* 5 1)
   "The length of a pomodoro break session in seconds"
   :type '(integer)
   :group 'pomodoro)
@@ -86,8 +86,8 @@
            (setq symbol "")
            (setq max-time 0)))
     (if (>= delta max-time)
-        (setq delta max-time)
-      (setq delta (- max-time delta)))
+        (setq delta max-time))
+    (setq delta (- max-time delta))
 
     ;; Get the time in minutes and seconds
     (setq minutes (/ delta 60))
