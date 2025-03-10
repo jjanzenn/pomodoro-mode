@@ -7,8 +7,8 @@
 
 ;;; Commentary:
 ;; This package provides a minor mode to add a simple pomodoro timer to your mode-line.
-;; To activate it, run `M-x pomodoro-global-mode`.
-;; To turn it off, run `M-x pomodoro-global-mode` once again.
+;; To activate it, run `M-x pomodoro-mode`.
+;; To turn it off, run `M-x pomodoro-mode` once again.
 
 ;;;###autoload
 (defgroup pomodoro nil
