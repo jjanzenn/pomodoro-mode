@@ -1,7 +1,7 @@
 ;; pomodoro-mode.el --- Introduces a pomodoro timer to your mode-line -*- lexical-binding: t -*-
 ;; Copyright (C) 2025 jjanzen
 ;; Author: j. janzen <jjanzen@jjanzen.ca>
-;; Version: 0.1
+;; Version: 0.2
 ;; Package-Requires: ()
 ;; Keywords: productivity, convenience
 
